@@ -58,5 +58,5 @@
 
 // LEDs are per half for split keyboards
 &led_strip {
-    chain-length = <21>;
+    chain-length = <27>;
 };
