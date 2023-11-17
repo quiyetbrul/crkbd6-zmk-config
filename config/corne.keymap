@@ -33,10 +33,10 @@
 
         raise_layer {
             bindings = <
-&kp TAB    &kp N1              &kp N2  &kp N3    &kp N4                &kp N5        &kp NUMBER_6  &kp N7     &kp NUMBER_8  &kp N9    &kp N0  &kp BSPC
-&kp LCTRL  &kp C_AC_SCROLL_UP  &trans  &trans    &kp C_AC_SCROLL_DOWN  &trans        &kp MINUS     &kp EQUAL  &kp LBKT      &kp RBKT  &trans  &kp BACKSLASH
-&kp LSHFT  &trans              &trans  &trans    &trans                &trans        &kp UNDER     &kp PLUS   &kp LBRC      &kp RBRC  &trans  &kp GRAVE
-                                       &kp LGUI  &trans                &kp RETURN    &kp SPACE     &trans     &kp RALT
+&kp TAB    &kp N1           &kp N2  &kp N3    &kp N4             &kp N5        &kp NUMBER_6  &kp N7     &kp NUMBER_8  &kp N9    &kp N0  &kp BSPC
+&kp LCTRL  &kp K_SCROLL_UP  &trans  &trans    &kp K_SCROLL_DOWN  &trans        &kp MINUS     &kp EQUAL  &kp LBKT      &kp RBKT  &trans  &kp BACKSLASH
+&kp LSHFT  &trans           &trans  &trans    &trans             &trans        &kp UNDER     &kp PLUS   &kp LBRC      &kp RBRC  &trans  &kp GRAVE
+                                    &kp LGUI  &trans             &kp RETURN    &kp SPACE     &trans     &kp RALT
             >;
         };
 
