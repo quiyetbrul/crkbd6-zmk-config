@@ -49,6 +49,15 @@
             >;
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        RGB {
+            if-layers = <0 1 2>;
+            then-layer = <3>;
+        };
+    };
 };
 
 // LEDs are per half for split keyboards
