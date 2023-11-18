@@ -25,27 +25,45 @@
 
         lower_layer {
             bindings = <
-&kp TAB    &trans     &trans     &trans     &trans     &trans       &trans      &trans    &kp UP      &trans             &trans           &to 3
-&kp LCTRL  &trans     &trans     &trans     &trans     &trans       &trans      &kp LEFT  &kp DOWN    &kp RIGHT          &trans           &to 4
-&kp LSHFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans       &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE
+&kp TAB
+&kp LCTRL
+&mt CAPSLOCK LEFT_SHIFT    &trans     &trans     &trans     &trans     &trans       &trans      &trans    &kp UP      &trans             &trans           &to 3
+&kp TAB
+&kp LCTRL
+&mt CAPSLOCK LEFT_SHIFT  &trans     &trans     &trans     &trans     &trans       &trans      &kp LEFT  &kp DOWN    &kp RIGHT          &trans           &to 4
+&kp TAB
+&kp LCTRL
+&mt CAPSLOCK LEFT_SHIFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans       &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE
                                  &kp LGUI   &trans     &kp SPACE    &kp ENTER   &trans    &kp RALT
             >;
         };
 
         raise_layer {
             bindings = <
-&kp TAB    &mt F1 EXCLAMATION  &mt F2 AT  &mt F3 HASH  &mt F4 DOLLAR  &mt F5 PERCENT    &mt F6 CARET   &mt F7 AMPERSAND  &mt F8 ASTERISK  &mt F9 LEFT_PARENTHESIS  &mt F10 RIGHT_PARENTHESIS  &kp F11
-&kp LCTRL  &kp PAGE_UP         &trans     &trans       &kp PAGE_DOWN  &trans            &kp MINUS      &kp EQUAL         &kp LBKT         &kp RBKT                 &trans                     &kp F12
-&kp LSHFT  &trans              &trans     &trans       &trans         &trans            &kp UNDER      &kp PLUS          &kp LBRC         &kp RBRC                 &trans                     &kp GRAVE
+&kp TAB
+&kp LCTRL
+&mt CAPSLOCK LEFT_SHIFT    &mt F1 EXCLAMATION  &mt F2 AT  &mt F3 HASH  &mt F4 DOLLAR  &mt F5 PERCENT    &mt F6 CARET   &mt F7 AMPERSAND  &mt F8 ASTERISK  &mt F9 LEFT_PARENTHESIS  &mt F10 RIGHT_PARENTHESIS  &kp F11
+&kp TAB
+&kp LCTRL
+&mt CAPSLOCK LEFT_SHIFT  &kp PAGE_UP         &trans     &trans       &kp PAGE_DOWN  &trans            &kp MINUS      &kp EQUAL         &kp LBKT         &kp RBKT                 &trans                     &kp F12
+&kp TAB
+&kp LCTRL
+&mt CAPSLOCK LEFT_SHIFT  &trans              &trans     &trans       &trans         &trans            &kp UNDER      &kp PLUS          &kp LBRC         &kp RBRC                 &trans                     &kp GRAVE
                                           &kp LGUI     &trans         &kp SPACE         &kp BACKSPACE  &trans            &kp RALT
             >;
         };
 
         numpad {
             bindings = <
-&trans  &trans  &trans  &trans        &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &to 0
-&trans  &trans  &trans  &trans        &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &trans  &trans        &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+&kp TAB
+&kp LCTRL
+&mt CAPSLOCK LEFT_SHIFT  &trans  &trans  &trans        &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &to 0
+&kp TAB
+&kp LCTRL
+&mt CAPSLOCK LEFT_SHIFT  &trans  &trans  &trans        &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
+&kp TAB
+&kp LCTRL
+&mt CAPSLOCK LEFT_SHIFT  &trans  &trans  &trans        &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
                         &kp LEFT_GUI  &trans  &trans    &trans  &kp N0  &trans
             >;
         };
@@ -55,7 +73,7 @@
 &trans  &trans            &kp LA(LC(LG(RIGHT)))  &trans             &trans         &bootloader        &bootloader      &trans           &trans           &trans           &ext_power EP_TOG  &trans
 &trans  &kp LG(LA(LEFT))  &kp LC(LA(RIGHT))      &kp LG(LA(RIGHT))  &kp LG(LA(F))  &rgb_ug RGB_HUD    &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &trans           &trans             &to 0
 &trans  &bt BT_CLR        &bt BT_SEL 0           &bt BT_SEL 1       &bt BT_SEL 2   &trans             &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG  &trans             &trans
-                                                 &trans             &trans         &trans             &trans           &trans           &trans
+                                                 &kp LEFT_GUI       &trans         &trans             &trans           &trans           &trans
             >;
         };
     };
