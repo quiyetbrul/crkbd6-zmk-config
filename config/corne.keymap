@@ -34,16 +34,16 @@
 
         raise_layer {
             bindings = <
-&kp TAB    &mt F1 N1    &mt F2 N2  &mt F3 N3  &mt F4 N4      &mt F5 N5    &mt F6 N6      &mt F7 N7  &mt F8 N8  &mt F9 N9  &mt F10 N0  &kp F11
-&trans     &kp PAGE_UP  &trans     &trans     &kp PAGE_DOWN  &trans       &kp MINUS      &kp EQUAL  &kp LBKT   &kp RBKT   &trans      &kp F12
-&kp LSHFT  &trans       &trans     &trans     &trans         &trans       &kp UNDER      &kp PLUS   &kp LBRC   &kp RBRC   &trans      &kp GRAVE
-                                   &kp LGUI   &trans         &kp SPACE    &kp BACKSPACE  &trans     &kp RALT
+&kp TAB    &mt F1 EXCLAMATION  &mt F2 AT  &mt F3 HASH  &mt F4 DOLLAR  &mt F5 PERCENT    &mt F6 CARET   &mt F7 AMPERSAND  &mt F8 ASTERISK  &mt F9 LEFT_PARENTHESIS  &mt F10 RIGHT_PARENTHESIS  &kp F11
+&trans     &kp PAGE_UP         &trans     &trans       &kp PAGE_DOWN  &trans            &kp MINUS      &kp EQUAL         &kp LBKT         &kp RBKT                 &trans                     &kp F12
+&kp LSHFT  &trans              &trans     &trans       &trans         &trans            &kp UNDER      &kp PLUS          &kp LBRC         &kp RBRC                 &trans                     &kp GRAVE
+                                          &kp LGUI     &trans         &kp SPACE         &kp BACKSPACE  &trans            &kp RALT
             >;
         };
 
         numpad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &tog 0
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &to 0
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
                         &trans  &trans  &trans    &trans  &kp N0  &trans
