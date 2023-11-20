@@ -25,9 +25,9 @@
 
         lower_layer {
             bindings = <
-&kp TAB       &none      &none      &none      &none      &kp LG(SPACE)    &none       &none           &kp UP_ARROW    &none              &none            &to 3
+&kp TAB       &none      &none      &none      &none      &kp LG(SPACE)    &none       &none           &kp UP_ARROW    &none              &none            &none
 &mo 4         &kp LG(A)  &none      &none      &kp LG(F)  &none            &none       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &none            &none
-&kp CAPSLOCK  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none            &kp C_PREV  &kp C_PP        &kp C_NEXT      &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp C_MUTE
+&kp CAPSLOCK  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp C_PREV       &kp C_NEXT  &kp C_MUTE      &kp K_VOLUME_DOWN  &kp K_VOLUME_UP &kp C_PP         &mo 3
                                     &kp LGUI   &none      &kp SPACE        &kp ENTER   &none           &kp RALT
             >;
         };
