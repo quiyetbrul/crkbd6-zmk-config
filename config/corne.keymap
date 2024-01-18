@@ -27,10 +27,10 @@
 
         lower_layer {
             bindings = <
-&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4   &kp NUMBER_5     &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8       &kp NUMBER_9     &kp NUMBER_0  &none
-&mo 4         &kp PAGE_UP   &none         &kp LA(BACKSPACE)  &kp PAGE_DOWN  &kp LG(SPACE)    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &none         &none
-&kp CAPSLOCK  &none         &none         &none              &none          &kp C_PREV       &kp C_NEXT      &kp C_MUTE    &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp C_PP      &mo 3
-                                          &kp LGUI           &none          &kp SPACE        &kp ENTER       &none         &kp LALT
+&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4   &kp NUMBER_5     &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8       &kp NUMBER_9     &kp NUMBER_0  &none
+&mo 4         &kp PAGE_UP   &none         &kp LA(BACKSPACE)  &kp PAGE_DOWN  &kp LG(SPACE)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW       &kp RIGHT_ARROW  &none         &none
+&kp CAPSLOCK  &none         &none         &none              &none          &kp C_PREV       &kp C_NEXT      &kp C_MUTE      &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp C_PP      &mo 3
+                                          &kp LGUI           &none          &kp SPACE        &kp ENTER       &none           &kp LALT
             >;
         };
 
